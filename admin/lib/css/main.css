@@ -1,0 +1,57 @@
+/* index.php */
+table.log_table {
+	margin-top: 2%;
+}
+
+/*  */
+div.table-box {
+	
+}
+
+div.form-box {
+
+}
+
+div.msg-box {
+	padding: 2% 0% 0% 0%;
+}
+
+div.msg-box p.msg-box-text {
+	padding: 2% 0% 2% 0%;
+	border-radius: 10px;
+	text-align: center;
+}
+
+textarea.intro {
+	resize: none;
+}
+
+div.medal-error div.modal-dialog div.modal-content  {
+	border-color: #f2dede;
+	border-width: 10px;
+}
+div.medal-success div.modal-dialog div.modal-content  {
+	border-color: #dff0d8;
+	border-width: 10px;
+}
+
+div.medal-warning div.modal-dialog div.modal-content  {
+	border-color: #fcf8e3;
+	border-width: 10px;
+}
+td.action_icon a i:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+td.action_icon a i {
+	-webkit-transform: scale(0.8);
+	/* Browser Variations: */
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+
+	color: black;
+}

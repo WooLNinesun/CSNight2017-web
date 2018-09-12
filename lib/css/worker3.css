@@ -1,0 +1,135 @@
+/* @media (min-width: 768px) { */
+
+#small_all_filter {
+	display: none;
+}
+#all_filter {
+	display: block;
+}
+/*** outside_folder ***/
+#outside_folder {
+	padding: 0;
+	height: 50px;
+	width: 100%;
+
+	background-color: #666666;
+	color: white;
+
+	text-align: center;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.outside_folder_fixed {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 300;
+
+	box-shadow: 0 0 20px gray;
+}
+#folder_ul {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+.filter_folder, #search_circle, #go_to_top {
+	display: inline-block;
+	float: left;
+	padding: 15px 15px 15px 15px;
+	height: 65px;
+	min-width: 60px;
+
+	font-size: 20px;
+	line-height:20px;
+
+	-webkit-transition:	background-color 0.3s ease;
+	-moz-transition:	background-color 0.3s ease;
+	transition:			background-color 0.3s ease;
+}
+#go_to_top {
+	display: none;
+}
+.filter_folder:hover, #search_circle:hover, #go_to_top:hover, .filter_folder[class ~= "active"] {
+	cursor: pointer;
+	background-color: #333333;
+	color: white;
+}
+.long_text {
+	font-size: 15px;
+}
+
+/*** search in outside_folder ***/
+#search {
+	display: none;
+	float: left;
+	margin: 5px;
+	height: 60px;
+}
+#search input, #search button {
+	display: inline-block;
+	float: left;
+	margin: 5px 0 5px 0;
+	border-width: 0px;
+	padding: 4px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 20px;
+}
+#search input {
+	width: 7em;
+	border-radius: 4px 0 0 4px;
+}
+#search button {
+	width: 50px;
+	border-radius: 0 4px 4px 0;
+}
+
+/*** outside_filter ***/
+#outside_filter {
+	color: #333333;
+	width: 100%;
+	text-align: center;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.outside_filter_fixed {
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	z-index: 250;
+}
+#filter_ul {
+	display: inline-block;
+	margin: 0px;
+	border-bottom: 1px solid #999999;
+	padding: 0 5px 0 5px;
+}
+.filter_ul_fixed {
+	background-color: #333333;
+	color: white;
+}
+.filter {
+	display: inline-block;
+	padding: 10px 5px 10px 5px;
+	width: 70px;
+
+	font-size: 14px;
+
+	-webkit-transition:	font-weight 0.3s ease;
+	-moz-transition:	font-weight 0.3s ease;
+	transition:			font-weight 0.3s ease;
+}
+.filter:hover, .filter[class ~= "active"] {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+/* lightbox */
+#lightbox_shadow {
+	display: none;
+}
+#lightbox_0 {
+	display: none;
+}
+
+/* } */

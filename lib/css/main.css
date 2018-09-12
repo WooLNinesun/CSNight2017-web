@@ -1,0 +1,160 @@
+html,
+body {
+    font-family: "微軟正黑體", sans-serif;
+    height: 100%;
+	background-color: #EDEDED;
+}
+
+hr {
+	border:0; height:2px; background-color:#d4d4d4;
+	color:#d4d4d4	/* IE6 *//
+}
+
+.navbar {
+    margin-bottom: 0px; 
+}
+.avoid_navbar {
+    padding-top: 50px;
+}
+
+/*------------------*/
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    
+    border: 1px solid lightgray;
+	border-radius: 4px;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+}
+
+.banner:hover {
+	cursor: pointer;
+	border-color: #336B96;
+	opacity: 0.6;
+}
+.livebox_shadow {
+	cursor: pointer;
+	display: none;
+	position: fixed;
+	top:	0px;
+	right:	0px;
+	bottom:	0px;
+	left:	0px;
+	background-color: black;
+	opacity: 0;
+	--opacity: 0.5;
+	z-index: 1040;
+
+	-webkit-transition: opacity 0.3s ease;
+	-moz-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+}
+#livebox {
+	display: none;
+	position: fixed;
+	/* "top" & "height" will be modified by javascript */
+	left: 0px;
+	width: 75%;
+	margin: 0px 12.5% 0px 12.5%;
+	box-shadow: 0px 0px 200px black;
+	padding: 0px;
+	background-color: white;
+	opacity: 0;
+	z-index: 1050;
+
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+}
+.livebox_pic {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	padding: 0px;
+}
+.livebox_pic .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.livebox_text {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	height: 100%;
+	padding: 3% 1.5% 3% 1.5%;
+	background-color: white;
+	overflow: auto;
+	word-break: break-all;
+}
+.livebox_text h2 {
+	font-size: 3em;
+	padding-bottom: 20px;
+}
+.livebox_text p {
+	line-height: 180%;
+	color: #666666;
+}
+
+/* footer css */
+footer {
+    margin: 50px 0 0 0;
+	background-color: #D4D4D4;
+}
+
+footer hr {
+	border:0; height:2px; background-color:#A1A1A1;
+	color:#A1A1A1	/* IE6 */
+}
+
+p.footercopyright {
+	font-size: 1.2em;
+}
+
+div.footersocial a i:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+ }
+div.footersocial a i {
+	-webkit-transform: scale(0.8);
+	/* Browser Variations: */
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+ }

@@ -1,0 +1,107 @@
+/* @media (max-width: 768px) { */
+
+/* small filter */
+#small_all_filter {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	--z-index: 3000;
+}
+#small_all_filter:hover {
+	cursor: pointer;
+}
+.small_all_fixed {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	box-shadow: 0 0 20px black;
+}
+#small_folder, #small_filter {
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+	padding: 15px 0 15px 0;
+	line-height: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+#small_folder {
+	background-color: #444444;
+	color: white;
+}
+#small_filter {
+	background-color: #666666;
+	color: white;
+}
+
+/* filter */
+#all_filter {
+	display: none;
+}
+
+/* #search_circle, #search */
+
+/* lightbox */
+#lightbox_0 {
+	background-color: white;
+}
+#pop_folder, #pop_filter {
+	float: left;
+	height: 100%;
+	width: 50%;
+	overflow: auto;
+}
+#pop_folder {
+	background-color: #444444;
+	color: white;
+	box-shadow: 0 0 20px black;
+
+	position: relative;
+	z-index: 300;
+}
+#pop_filter {
+	background-color: #666666;
+	color: white;
+
+	position: relative;
+	z-index: 200;
+}
+#pop_folder ul, #pop_filter ul {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.pop_filter_folder, #pop_search_circle, #pop_go_to_top, .pop_filter {
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 20px;
+}
+#pop_go_to_top {
+	display: none;
+}
+.pop_filter_folder:hover, #pop_search_circle:hover, #pop_go_to_top:hover, .pop_filter_folder[class ~= "active"] {
+	cursor: pointer;
+	background-color: #666666;
+}
+.pop_filter:hover, .pop_filter[class ~= "active"] {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+/*** for vertical & horizontal center-align use ***/
+.table_wrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.table_cell {
+	display: table-cell;
+	vertical-align:middle;
+	text-align: center;
+}
+
+/* } */
+/* end of "@media (max-width: 768px)" */

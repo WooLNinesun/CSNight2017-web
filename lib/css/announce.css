@@ -1,0 +1,52 @@
+div.title-name {
+	padding-top: 10px;
+}
+
+div.title-cover {
+	padding-left: 0px;	
+}
+
+.container hr {
+	border-color: grey;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+div.image-clip {
+	min-height: 20em;
+	width: 100%;
+	position: relative;
+    box-shadow: 0 0 3px #efefef;
+}
+
+div.image-clip:hover {
+	opacity: 0.5;
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+}
+
+p.summary {
+	font-size: 120%;
+	max-height: 15em;
+    overflow: hidden;
+    margin: .5em .5em 0em 1em;
+    white-space: pre-wrap;
+	color: black;
+}
+
+div.post-item {
+	background-color: #f7f8f8;
+	border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+p.link-text {
+	font-size: 120%;
+	text-align: right;
+	margin: 0em 1.5em .5em 1em;
+}
+
+#post-container {
+	margin-bottom: 1em; 
+}

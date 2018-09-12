@@ -1,0 +1,13 @@
+form.loginform {
+	padding-top: 2%;
+}
+
+div.loginmsg {
+	padding: 2%;
+}
+
+div.loginmsg p.loginmsg-box {
+	padding: 2% 0% 2% 0%;
+	border-radius: 10px;
+	text-align: center;
+}

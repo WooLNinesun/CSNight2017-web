@@ -1,0 +1,17 @@
+/* html_advertisement.php */
+
+.padding_top_51 {	padding-top: 51px;	}	/* to avoid nav bar */
+h1 {
+	text-align: center;
+	padding-top: 51px;
+	padding-bottom: 10px;
+}
+.ad {
+	margin: 15px 0px 15px 0px;
+	--border: 1px solid white;
+	padding: 50px 10px 50px 10px;
+	background-color: white;
+	text-align: center;
+	font-size: 150%;
+}
+.ad p {	color: black;	}
